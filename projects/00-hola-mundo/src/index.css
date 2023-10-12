@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+  background: #222;
+  font-family: system-ui;
+  display: grid;
+  place-content: center;
+  min-height: 100vh;
+}
+
+/* es a nivel de aplicación en donde se añade la separacion entre los componentes 
+¿Cómo se tienen que separar los elemento cuando se muestran juntos?*/
+.App {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
